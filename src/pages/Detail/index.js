@@ -12,16 +12,6 @@ export function Detail() {
   const episodie = useSelector(selectEpisodie);
   const history = useHistory();
 
-  if (data && Object.keys(data).length === 0) {
-    console.log(data);
-    history.push("/");
-  }
-
-  // if (episodie && Object.keys(episodie).length === 0) {
-  //   return history.push("/");
-  //   console.log("episodie");
-  // }
-
   return (
     <Container>
       <h1>{data.show.name}</h1>

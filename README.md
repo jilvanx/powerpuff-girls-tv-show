@@ -6,7 +6,7 @@
 
 This web app uses [TVMAZE](https://www.tvmaze.com/api) to search episodies from The Powerpuff Girls show. Built using React ⚛️ + ❤️.
 
-See more https://powerpuff-girls-tv-show.netlify.com/
+See more https://powerpuff-girls-tv-show.vercel.app
 
 ## Install 🚀
 
