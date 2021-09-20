@@ -15,6 +15,10 @@ export function Home() {
     api.get("").then((res) => dispatch(setShow(res.data)));
   }, [dispatch]);
 
+  if (data && Object.keys(data).length === 0) {
+    return <strong>Loading ...</strong>;
+  }
+
   return (
     <Container>
       <h1>{data.show.name}</h1>
